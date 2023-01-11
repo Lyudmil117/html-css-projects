@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .zaglavie {
+                font-size: 45px;
+                font-style: italic;
+                font-weight: bold;
+                margin-left: 30px;
+                margin-bottom: 0px;
+                margin-top: 10px;
+            }
+            .podzaglavie {
+                font-size: 30px;
+                margin-top: 15px;
+                margin-bottom: 40px;
+                font-style: italic;
+                margin-left: 30px;   
+                width: 400px;            
+            }
+            
+            form {
+                font-size: 50px;
+                font-style: italic;
+                margin-top: 60px;                
+                margin-left: 30px;                                                                                   ;
+                background-color: azure;
+                width: 270px;
+                height: 40px;
+                display: flex;
+                color: rgb(0, 0, 0);
+                cursor: pointer;
+                border: none;                        
+
+            }
+            button {
+                font-weight: bold;
+                font-style: italic;
+                background-color: rgb(41, 158, 53);
+                font-size: 20px;
+                width: 100px;
+                height: 40px;
+                color: rgb(0, 0, 0);
+                border: none;
+            }
+            .stock_info {
+                margin-left: 60px;
+                font-size: 20px;
+                font-style:italic;
+                font-weight: bold;
+                padding-bottom: 2px;
+                
+            }
+            .info_button2 {
+                width: 130px;
+                height: 45px;
+                font-weight: bold;
+                font-size: 25px;
+                padding: auto;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 0px;
+                cursor: pointer;
+            }
+            .portfolio {
+                width: 130px;
+                height: 45px;
+                font-weight: bold;
+                font-size: 25px;
+                padding: auto;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 0px;
+                cursor: pointer;
+            }
+              
+            
+        </style>
+    </head>
+
+    <body>
+        <button class="info_button2">revenue</button>
+        <button class="info_button2">eps</button>
+        <button class="info_button2">roic</button>
+        <button class="info_button2">trending</button>
+        <button class="portfolio">portfolio</button>
+
+        <p class="zaglavie">
+            Find the best stocks to invest in!
+        </p>
+
+        <p class="podzaglavie">
+            What is a great investment? There is no easy answer to that, but usually the best stocks have some common features...
+        </p>
+
+        <p class="stock_info">Does it have:</p>
+        <p class="stock_info">growing revenue?</p>
+        <p class="stock_info">growing EPS?</p>
+        <p class="stock_info">stable margins?</p>
+        <p class="stock_info">moat*</p>
+        <p class="stock_info">ROIC over 15%?</p>
+        <p class="stock_info">secular growth?</p>
+
+        <div class="container">
+            <form>
+                <input type="text" placeholder="STOCK TICKER...">
+                <button type="submit">search</button> 
+            </form>
+        </div>
+
+    </body>
+</html>
