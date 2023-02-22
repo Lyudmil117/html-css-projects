@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main_table {
+            width: 600px;
+
+            margin-left: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            font-size: 10px;
+        }
+        .upper_row {
+            padding-bottom: 0px;
+            
+        }
+        .label1 {
+            color: grey;
+            text-align: right;
+        }
+        .data1{
+            background-color: #EEEEEE;
+        }
+        .table3 {
+            width: 612px;
+            height: 100px;
+            background-color: "#DDDDDD";
+            margin-top: 18px;
+            border: 1px solid grey;
+            margin-left: 30px;
+            font-size: 10px;
+        }
+        .table4 {
+            width: 612px;
+            margin-left: 30px;
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;    
+        }
+        .table5 {
+            width: 612px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 30px;
+            font-size: 10px;
+            height: 22px;
+        }
+        .table6 {
+            width: 612px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 30px;
+            margin-top: 10px;
+            font-size: 9px;
+            
+        }
+        .table8 {
+            width: 610px;
+            margin-left: 30px;
+            font-size: 9px;
+        }
+        
+        .row1 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+            border: 1px solid rgb(197, 187, 187);
+        }
+        .row11 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+        }
+        .row2{
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid rgb(197, 187, 187);
+        }
+        .grey_box {
+            background-color: #EEEEEE;
+        }
+        
+    </style>
+
+
+</head>
+<body>
+    <table class="main_table">
+        <tr>
+            <td style="width: 300px; font-size: 20px;"><b>Invoice</b></td>
+
+			<td>
+			    <table style="width: 300px; border-collapse: collapse;">
+			        <tr>
+			            <td valign="bottom" style="font-weight: 500; text-align: right; color: grey; font-size: 22px; letter-spacing: 1px;">AIP Solutions</td>
+			        </tr>
+			        <tr>
+			            <td style="text-align: right; height: 8px;" >
+			                <table cellspacing="0" align="right">
+			                    <tr>
+			                        <td style="height: 8px; width: 27px; background-color: #B0B5BE;"><img src="bullit.gif"></td>
+			                        <td style="height: 8px; width: 27px; background-color: #FFBA00;"><img src="bullit.gif"></td>
+			                        <td style="height: 8px; width: 27px; background-color: #8B9ECE;"><img src="bullit.gif"></td>
+			                        <td style="height: 8px; width: 27px; background-color: #80D087;"><img src="bullit.gif"></td>
+			                        <td style="height: 8px; width: 27px; background-color: #D876D1;"><img src="bullit.gif"></td>
+			                    </tr>
+			                </table>
+			            </td>
+			        </tr>
+			    </table>
+			</td>
+		</tr>
+        <!---INVOCE AND LOGO-->
+
+        <tr>
+			<td colspan="2">
+			    <table style="border: none; width: 612px; height: 20px;" cellpadding="4">
+			        <tr >
+			            <td class="upper_row" style="width: 125px;">Number</td>
+			            <td class="upper_row" style="width: 125px;">Date</td>
+			            <td class="upper_row" style="width: 125px;">Issued in</td>
+			            <td class="upper_row" style="width: 125px;">Tax Date</td>
+			            <td class="upper_row" style="width: 125px;">Due date</td>         
+			        </tr>
+			        <tr style="background-color: #EEEEEE;">
+			            <td><b>000000047</b></td>
+			            <td><b>14.03.2016</b></td>
+			            <td><b>Sofia, 1505</b></td>
+			            <td><b>14.03.2016</b></td>
+			            <td><b>21.03.2016</b></td>
+			        </tr>        
+			    </table>		
+			</td>
+		</tr>
+        <!--МЕЖДИННА ТАБЛИЦА-->
+        
+        <tr>
+            <td style="padding-top: 10px; color: grey; font-size: 12px;"><b>Client</b></td>
+            <td style="padding-top: 10px; color: grey; font-size: 12px;"><b>Supplier</b></td>
+        </tr>
+        <!--ДВЕТЕ ТАБЛИЦИ-->
+        <tr>
+        	<td>
+	        	 <table style="border: 1px solid grey; height: 125px;" cellSpacing="0">
+			    	<tr>
+				        <td>
+				           <table style="border: none; width: 300px; height: 116px;">
+				                <tr>
+				                    <td colspan="2" style="font-size: 14px; color: rgb(84, 80, 80); height: 18px;"><b>Export USA Inc</b></td>
+				                </tr>
+				            
+				                <tr>
+				                    <td class="label1" style="width: 60px;">Code</td>
+				                    <td class="data1"><b>9999999999999</b></td>
+				                </tr>
+
+				                <tr>
+				                    <td class="label1">VAT number</td>
+				                    <td class="data1"><b>99999999999999999</b></td>
+				                </tr>
+
+				                <tr>
+				                    <td class="label1">City</td>
+				                    <td class="data1"><b>Brooklyn st, 11201</b></td>
+				                </tr>
+
+				                <tr>
+				                    <td class="label1">Adress</td>
+				                    <td class="data1"><b>18 Bridge st, Unit 2A</b></td>
+				                </tr>
+
+				           </table>
+				        </td>
+			      	</tr>
+			     </table>
+			</td>
+			<td>
+			  	<table style="border: 1px solid grey; height: 125px;"  cellSpacing="0">
+				  	<tr>
+				        <td>           
+				            <table style="border: none; width: 300px; height: 116px; width: 200pxpx;">               
+				                <tr>                    
+				                    <td colspan="2" style="font-size: 14px; color: rgb(78, 77, 77); height: 18px;"><b>AIP Solutions Ltd</b></td>                    
+				                </tr>
+
+				                <tr>
+				                    <td class="label1" style="width: 60px;">Code</td>
+				                    <td class="data1"><b>11355223</b></td>
+				                </tr>
+
+				                <tr>
+				                    <td class="label1" style="width: 60px;">VAT number</td>
+				                    <td class="data1"><b>BG11352523</b></td>
+				                </tr>
+
+				                <tr>
+				                    <td class="label1" style="width: 60px;">City</td>
+				                    <td class="data1"><b>Sofia, 1505</b></td>
+				                </tr>
+
+				                <tr>
+				                    <td class="label1" style="width: 60px;">Adress</td>
+				                    <td class="data1"><b>Galabets str., office></b></td>
+				                </tr>     
+
+				       		</table>
+						</td>
+					</tr>
+			    </table>
+        	</td>
+        </tr>
+        <!---ПОД ТАБЛИЦИТЕ С ДАННИ ЗА АДРЕС И Т.Н-->
+
+        <table class="table3" cellSpacing="0px">
+            <tr>
+                <td class="row1">No</td>
+                <td class="row1">Code</td>
+                <td class="row1">Description of the product / service</th>
+                <td class="row1">Unit</td>
+                <td class="row1">Qtty</td>
+                <td class="row1">price</td>
+                <td class="row1">Total</td>
+            </tr>
+            <!-- invoice line start -->
+             <tr>
+                <td class="row2">1</td>
+                <td class="row2"></td>
+                <td class="row2">client training on site</td>
+                <td class="row2">pcs.</td>
+                <td class="row2">1</td>
+                <td class="row2">688.00</td>
+                <td class="row2">&euro; 688.00</td>
+            </tr>
+            <!-- invoice line end -->
+               <tr>
+                   <td  class="grey_box" colspan="5" style="border: 1px solid rgb(197, 187, 187);"></td>
+                   <td class="grey_box" style="text-align: right; border: 1px solid rgb(197, 187, 187);">
+                    
+                           <b style="color: gray;">
+                               Sub total:<br>
+                               VAT 0%:<br>
+                               Total:
+                           </b>
+                       
+                </td>
+                <td class="grey_box" style="text-align: right; border: 1px solid rgb(197, 187, 187);">
+                      
+                          <b>	&euro; 688.00<br>
+                              <br>
+                              &euro; 688.00
+                          </b>
+                      
+                </td>
+            </tr>
+        </table>
+
+        <table class="table4" cellspacing="3">
+            <br>
+                <tr style="border: none;">
+                    <td class="row11">Payment</td>
+                    <td class="row11">Account</td>
+                    <td class="row11">BIC</td>
+                    <td class="row11">IBAN</td>
+                </tr>
+    
+            
+                <tr style="background-color: #EEEEEE; height: 18px; ">
+                    <td style="width: 60px; padding-left: 4px;"><b>Bank transfer</b></td>
+                    <td style="padding-left: 4px; height: 18px; width: 300px;"><b>Unicredit Bulbank</b></td>
+                    <td style="padding-left: 4px;"><b>UNCRBGSF</b></td>
+                    <td style="padding-left: 4px;"><b>BG10UNCR75271480949115</b></td>        
+                    
+                </tr>
+            </table>
+
+              
+            <table class="table5">
+                <br>
+                <tr>
+                    <td style="width: 60px;"><b>Notes</b></td>
+                    <td style="background-color: #EEEEEE;"><b>Training Riva</b></td>
+                </tr>
+            </table>
+
+            
+            <table class="table6" style="vertical-align: bottom; margin-bottom: 0%;">
+
+                <tr>
+                    <td></td>
+                    <td style="width: 168px;"></td>
+                    <td style="width: 106px; color: gray;"><b>Received</b></td>
+
+                    <td style="width: 101px; color: gray;"><b>Created</b></td>
+                </tr>
+            </table>
+
+            <table class="table7">
+                <tr>
+                    <td></td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td style="width: 410px;"></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table style="border-color: 1px solid gray; ">
+                            <tr>
+                                <td style="width: 105px; height: 42px; border: 1px solid gray;" colspan="2"></td>
+                                <td style="width: 102px; height: 42px; border: 1px solid gray; font-size: 10px; color: gray; vertical-align: bottom; font-size: 9px;"><b>Peter Assenov - 0001</b></td>
+                            </tr>
+                        </table>
+                       </td>
+                </tr>
+            </table>
+
+            <hr style="width: 612px; color: gray; margin-left: 30px; margin-bottom: 0%;" >
+    
+            <table class="table8" style="width: 612px; margin-top: 0%; font-family: Arial, Helvetica, sans-serif;">
+                <tr>
+                    <td style="width: 401px;"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td  style="vertical-align: top; height: 20px; color: gray;">Invoice generated by:<a href="http://www.invoicebg.com"> http://www.invoicebg.com</a></td>
+                </tr>
+            </table>
+
+	</table>
+
+    </table>
+    
+</body>
+</html>
